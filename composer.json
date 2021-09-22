@@ -1,0 +1,15 @@
+{
+    "name": "pascal/docker-secret-loader",
+    "authors": [
+        {
+            "name": "pascal zoet",
+            "email": "pascal@panelinzicht.nl"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "DockerSecret\\": "src/"
+        }
+    },
+    "require": {}
+}
