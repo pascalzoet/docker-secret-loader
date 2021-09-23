@@ -7,9 +7,7 @@
         }
     ],
     "autoload": {
-        "psr-4": {
-            "DockerSecret\\": "src/"
-        }
+        "files": ['src/DockerSecretLoader.php']
     },
     "require": {}
 }
