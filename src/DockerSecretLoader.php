@@ -7,5 +7,7 @@ function docker_secret($name)
 
 function docker_secret_callable($name)
 {
-    return docker_secret($name);
+   return function () use ($name) {
+        return docker_secret($name);
+    };
 }
